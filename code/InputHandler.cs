@@ -21,7 +21,6 @@ public class InputHandler
             }
         }
 
-
         // // Display the 2D array for verification
         // for (int i = 0; i < numRows; i++)
         // {
@@ -33,10 +32,27 @@ public class InputHandler
         // }
         return heightMap;
     }
-    public static string[] ReadInputLines(string input)
+    public static List<(string,long)> ReadInputLines(string input)
     {
+        List<(string, long)> pairs = new List<(string, long)>();
+
         // Split the input into rows
-        string[] rows = input.Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
-        return rows;
+        string[] lines = input.Split(new [] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+        foreach (var line in lines)
+        {
+            // Split each line into the string part and the integer part
+            string[] parts = line.Trim().Split(' ');
+            if (parts.Length == 2 && long.TryParse(parts[1], out long number))
+            {
+                // Add the tuple to the list
+                pairs.Add((parts[0], number));
+            }
+        }
+        // Testing the output
+        // foreach (var pair in pairs)
+        // {
+        //     Console.WriteLine($"String: {pair.Item1}, Number: {pair.Item2}");
+        // }
+        return pairs;
     }
 }

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = tests
-build_property.ProjectDir = /Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day6/tests/
+build_property.ProjectDir = /Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day7/tests/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,5 +1,6 @@
+
 namespace code;
-public class Processor1
+public class Processor2
 {
     public static long Process(List<(string, long)> hands)
     {

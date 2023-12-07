@@ -82,3 +82,15 @@
 /Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day6/code/obj/Debug/net8.0/refint/code.dll
 /Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day6/code/obj/Debug/net8.0/code.pdb
 /Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day6/code/obj/Debug/net8.0/ref/code.dll
+/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day7/code/bin/Debug/net8.0/code.deps.json
+/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day7/code/bin/Debug/net8.0/code.dll
+/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day7/code/bin/Debug/net8.0/code.pdb
+/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day7/code/obj/Debug/net8.0/code.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day7/code/obj/Debug/net8.0/code.AssemblyInfoInputs.cache
+/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day7/code/obj/Debug/net8.0/code.AssemblyInfo.cs
+/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day7/code/obj/Debug/net8.0/code.csproj.CoreCompileInputs.cache
+/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day7/code/obj/Debug/net8.0/code.sourcelink.json
+/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day7/code/obj/Debug/net8.0/code.dll
+/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day7/code/obj/Debug/net8.0/refint/code.dll
+/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day7/code/obj/Debug/net8.0/code.pdb
+/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day7/code/obj/Debug/net8.0/ref/code.dll

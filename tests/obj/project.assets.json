@@ -1090,11 +1090,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day6/tests/tests.csproj",
+      "projectUniqueName": "/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day7/tests/tests.csproj",
       "projectName": "tests",
-      "projectPath": "/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day6/tests/tests.csproj",
+      "projectPath": "/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day7/tests/tests.csproj",
       "packagesPath": "/Users/kaini/.nuget/packages/",
-      "outputPath": "/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day6/tests/obj/",
+      "outputPath": "/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day7/tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kaini/.nuget/NuGet/NuGet.Config"
@@ -1109,8 +1109,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day6/code/code.csproj": {
-              "projectPath": "/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day6/code/code.csproj"
+            "/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day7/code/code.csproj": {
+              "projectPath": "/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day7/code/code.csproj"
             }
           }
         }

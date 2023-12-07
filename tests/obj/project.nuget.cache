@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m33LMB8TsP7u29jaN6jt/MSFYcyDxfq9PaNXx1q4a3DHzepHj9mEF4t9QhqsrgrPHSyapbXH4IcyhBT7CBUy+w==",
+  "dgSpecHash": "+Rr3bt7GxwgLSVFTJtjzq4sz3B28mW7H+muE391oM33NHR6EPmxnHBfk8bP/a1fyFgofJNiqHUzeT6hYWoFntA==",
   "success": true,
-  "projectFilePath": "/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day6/tests/tests.csproj",
+  "projectFilePath": "/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day7/tests/tests.csproj",
   "expectedPackageFiles": [
     "/Users/kaini/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
     "/Users/kaini/.nuget/packages/microsoft.codecoverage/17.6.0/microsoft.codecoverage.17.6.0.nupkg.sha512",

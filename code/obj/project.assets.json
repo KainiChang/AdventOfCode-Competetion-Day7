@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day6/code/code.csproj",
+      "projectUniqueName": "/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day7/code/code.csproj",
       "projectName": "code",
-      "projectPath": "/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day6/code/code.csproj",
+      "projectPath": "/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day7/code/code.csproj",
       "packagesPath": "/Users/kaini/.nuget/packages/",
-      "outputPath": "/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day6/code/obj/",
+      "outputPath": "/Users/kaini/Documents/Projects/Code Challenge/AdventOfCode-Competetion-Day7/code/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kaini/.nuget/NuGet/NuGet.Config"
