@@ -15,8 +15,8 @@ public class Processor2
         for (int i = 0; i < length; i++)
         {
             int level = GetStrengthLevel(bids[i].Item1);
-            //replace A chars in Item1 with Z, replace K with Y,replace Q with X, replace J with W, replace T with V
-            bids[i] = (bids[i].Item1.Replace('A', 'Z').Replace('K', 'Y').Replace('Q', 'X').Replace('J', 'W').Replace('T', 'V'), bids[i].Item2, level, bids[i].Item4);
+            //replace A chars in Item1 with Z, replace K with Y,replace Q with X, replace J with 1(weaker than 2), replace T with V
+            bids[i] = (bids[i].Item1.Replace('A', 'Z').Replace('K', 'Y').Replace('Q', 'X').Replace('J', '1').Replace('T', 'V'), bids[i].Item2, level, bids[i].Item4);
         }
         //sort by level, then by card value
         bids.Sort((x, y) =>
@@ -27,11 +27,12 @@ public class Processor2
 
      return y.Item1.CompareTo(x.Item1); // Descending sort for Item1 when Item3s are equal
  });
+
+        // output the result, rank = length-i
         long count = 0;
         for (int i = 0; i < length; i++)
         {
-
-            long product = (length -i) * bids[i].Item2;
+            long product = (length - i) * bids[i].Item2;
             // Console.WriteLine($"product: {product} = {length -i} * {bids[i].Item2}");
             bids[i] = (bids[i].Item1, bids[i].Item2, bids[i].Item3, product);
             count += product;
@@ -54,6 +55,28 @@ public class Processor2
             {
                 cards.Add(cardsInHand[i], 1);
             }
+        }
+        // if all cards are same including all J, return 7
+        if (cards.Count == 1)
+        {
+            return 7;
+        }
+        else if (cards.ContainsKey('J'))
+        {
+            // find the count of J card, Add the number to the count of the other card(not J) with highest count value
+
+            int jCount = cards['J'];
+            cards.Remove('J');
+            int maxCount = 0;
+            foreach (var card in cards)
+            {
+                if (card.Value > maxCount)
+                {
+                    maxCount = card.Value;
+                }
+            }
+            //Add jCount to the Card with the Maximum Count
+            cards[cards.First(x => x.Value == maxCount).Key] += jCount;
         }
         if (cards.Count == 1)
         {

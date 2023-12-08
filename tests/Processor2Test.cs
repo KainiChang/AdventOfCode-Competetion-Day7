@@ -49,6 +49,15 @@ public class Processor2Test : code.Processor2
     int actual = code.Processor2.GetStrengthLevel(input);
     Assert.AreEqual(expected, actual);
   }
+            [TestMethod]
+  public void StrengthTest6()
+  {
+    string input = @"JJJJJ";
+
+    int expected = 7;
+    int actual = code.Processor2.GetStrengthLevel(input);
+    Assert.AreEqual(expected, actual);
+  }
     [TestMethod]
   public void ExampleTest()
   {
@@ -63,7 +72,7 @@ QQQJA 483";
     Assert.AreEqual(expected, actual);
   }
       [TestMethod]
-  public void GetQ1AnswerTest()
+  public void GetQ2AnswerTest()
   {
     string input = @"99898 978
 T99A9 198

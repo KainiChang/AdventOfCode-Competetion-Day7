@@ -54,6 +54,7 @@ public class Processor1
                 cards.Add(cardsInHand[i], 1);
             }
         }
+
         if (cards.Count == 1)
         {
             return 7;
